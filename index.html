@@ -13,17 +13,18 @@
       }
     </style>
   </head>
-  <body onload="Reset()" onresize="Reset()" >
-    <div class="webgl-content" style="width: 100%; height: 100%">
-      <div id="unityContainer" style="width: 100%; height: 100%"></div>
+  <!-- <body onload="Reset()" onresize="Reset()" > -->
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 1280px; height: 720px"></div>
       <div class="footer">
         <!-- <div class="webgl-logo"></div> -->
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
         <div class="title">ฅ•ω•ฅ 按這裡可以全螢幕ㄛ ➭ </div>
       </div>
     </div>
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-      <strong>操作方法：</strong> ◈ 移動：WASD ◈ 射擊：滑鼠左鍵 ◈ 衝刺：移動 + 滑鼠右鍵 ◈
+    <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+      <h5><strong>操作方法：</strong> ◈ 移動：WASD ◈ 射擊：滑鼠左鍵 ◈ 衝刺：移動 + 滑鼠右鍵 ◈</h5>
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
     <footer class="my-5 pt-5 text-muted text-center text-small">
